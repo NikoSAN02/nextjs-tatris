@@ -1,0 +1,81 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+body {
+    background-color: #001;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+h1 {
+    color: orangered;
+    background-color: rgba(116, 8, 8, 0.3);
+    font-size: 2.8em;
+    top: 10;
+    bottom: 0;
+    line-height: 0.2;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    color: palegreen;
+    font-size: 1em;
+    line-height: 0;
+    font-family: sans-serif;
+}
+
+sup {
+    font-size: 0.3em;
+    color: lightgreen;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    color: #070;
+    font-size: 0.7em;
+    font-weight: 0;
+}
+
+button:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+button:active {
+    color: orange;
+    cursor: pointer;
+}
+
+.unsupported {
+    overflow: hidden;
+    position: absolute;
+    z-index: -2;
+    color: black;
+    background-color: tomato;
+    padding: 1em;
+    border: 1px solid darkgoldenrod;
+    font-family: sans-serif;
+}
